@@ -14,6 +14,8 @@
 		4F349EC71C40D92800F7E554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F349EC51C40D92800F7E554 /* LaunchScreen.storyboard */; };
 		4F349ED21C40D92800F7E554 /* LomdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F349ED11C40D92800F7E554 /* LomdTests.swift */; };
 		4F349EDD1C40D92800F7E554 /* LomdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F349EDC1C40D92800F7E554 /* LomdUITests.swift */; };
+		4F349EEB1C40E78A00F7E554 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F349EEA1C40E78A00F7E554 /* TableViewController.swift */; };
+		4F349EF71C40F7F600F7E554 /* json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F349EF61C40F7F600F7E554 /* json.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4F349ED81C40D92800F7E554 /* LomdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LomdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F349EDC1C40D92800F7E554 /* LomdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LomdUITests.swift; sourceTree = "<group>"; };
 		4F349EDE1C40D92900F7E554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F349EEA1C40E78A00F7E554 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		4F349EF61C40F7F600F7E554 /* json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = json.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				4F349EBC1C40D92800F7E554 /* AppDelegate.swift */,
 				4F349EBE1C40D92800F7E554 /* ViewController.swift */,
+				4F349EEA1C40E78A00F7E554 /* TableViewController.swift */,
 				4F349EC01C40D92800F7E554 /* Main.storyboard */,
+				4F349EF61C40F7F600F7E554 /* json.swift */,
 				4F349EC31C40D92800F7E554 /* Assets.xcassets */,
 				4F349EC51C40D92800F7E554 /* LaunchScreen.storyboard */,
 				4F349EC81C40D92800F7E554 /* Info.plist */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F349EBF1C40D92800F7E554 /* ViewController.swift in Sources */,
+				4F349EEB1C40E78A00F7E554 /* TableViewController.swift in Sources */,
 				4F349EBD1C40D92800F7E554 /* AppDelegate.swift in Sources */,
+				4F349EF71C40F7F600F7E554 /* json.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +492,7 @@
 				4F349EE31C40D92900F7E554 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F349EE41C40D92900F7E554 /* Build configuration list for PBXNativeTarget "LomdTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				4F349EE61C40D92900F7E554 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F349EE71C40D92900F7E554 /* Build configuration list for PBXNativeTarget "LomdUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				4F349EE91C40D92900F7E554 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
